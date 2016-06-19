@@ -1,20 +1,21 @@
+This tutorial will show you how to create and run a Reusable Polymer Element and run it on Cloud9 IDE.
+I have used the official Polymer [documentation](https://www.polymer-project.org/1.0/start/first-element/intro) as a base for this tutorial.
+
 # Create a new Workspace on Cloud9
+1. Create a new workspace using a HTML5 app template
+2. Remove all files that have been created
+3. (optional) Initialize the git repo using `git init`
 
-
-
-
-Following this as a base: https://www.polymer-project.org/1.0/start/first-element/intro
 
 # Install dependencies
 
-Node.js:
+## Node.js
 Check that Node.js (min v4.x) is installed using `node -v`. It should print the version that is installed. 
 
-Install bower: 
-
+## Install bower 
 `npm install -g bower`
 
-Install Polymer CLI:
+## Install Polymer CLI
 `npm install -g polymer-cli`
 
 # Get the sample code
@@ -57,5 +58,5 @@ Data-bound icon-toggle
 Not much here yet.
 ```
 
-If this is what you get, go to the step 2 of the tutorial: 
+That's it! If this is what you get, go to the step 2 of the tutorial: 
 https://www.polymer-project.org/1.0/start/first-element/step-2
