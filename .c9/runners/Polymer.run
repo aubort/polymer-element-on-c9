@@ -1,0 +1,5 @@
+// A custom runner for running a Polymer app on Cloud9 IDE
+{
+    "cmd" : ["polymer", "serve", "--hostname", "0.0.0.0"],
+    "working_dir": "$project_path"
+}

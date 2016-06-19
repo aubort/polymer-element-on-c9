@@ -60,3 +60,23 @@ Not much here yet.
 
 That's it! If this is what you get, go to the step 2 of the tutorial: 
 https://www.polymer-project.org/1.0/start/first-element/step-2
+
+# Custom Runner for Cloud9
+Alternatively, you can create a custom runner to avoid typing the command line
+
+1. Run > Run With > New Runner
+2. Name it as you wish (Polymer.run in our case)
+3. Copy, Paste and save the following lines
+```
+// A custom runner for running a Polymer app on Cloud9 IDE
+{
+    "cmd" : ["polymer", "serve", "--hostname", "0.0.0.0"],
+    "working_dir": "$project_path"
+}
+```
+
+This will create a `Polymer.run` file in `/.c9/runners`
+
+4. Now go to Run > Run With > Polymer
+
+The server should be starting as expected.
